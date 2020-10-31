@@ -1,0 +1,46 @@
+{
+  "translation": {
+    "CoursesRoute.Title": "Конструктор занятий",
+    "CoursesRoute.Tab1": "Курсы",
+    "CoursesRoute.CreateNewCourseTitle": "Создать новый курс",
+
+    "CourseModal.Title": "Ваш новый курс",
+    "CourseModal.MediaTitle": "Изображение курса",
+    "CourseModal.InputFileTitle": "Загрузите изображение",
+    "CourseModal.InputFileSize": "не более 5 Мб",
+    "CourseModal.InputPlaceholderName": "Название курса",
+    "CourseModal.InputPlaceholderDescription": "Описание курса",
+    "CourseModal.ActionCreate": "Создать курс",
+    "CourseModal.ActionCancelCreation": "Отмена",
+
+    "CourseWarningModalDeleteAction.Title": "Удалить курс?",
+    "CourseWarningModalDeleteAction.Description": "Курс и все файлы удалятся из конструктора",
+    "CourseWarningModalDeleteAction.ActionDelete": "Удалить",
+    "CourseWarningModalDeleteAction.ActionCancelDelete": "Отмена",
+
+    "ActionCard.LessonsTitle": "Уроков: ",
+    "ActionCard.DeleteCourseTitle": "Удалить курс",
+    "ActionCard.DuplicateCourseTitle": "Дублировать курс",
+
+
+    "LessonsRoute.Title": "Вернуться в кабинет",
+    "LessonsRoute.Tab1": "Уроки",
+    "LessonsRoute.CreateNewLessonTitle": "Создать новый урок",
+    "LessonModal.Title": "Ваш новый урок",
+    "LessonModal.MediaTitle": "Изображение урока",
+    "LessonModal.InputFileTitle": "Загрузите изображение",
+    "LessonModal.InputFileSize": "не более 5 Мб",
+    "LessonModal.InputPlaceholderName": "Название урока",
+    "LessonModal.InputPlaceholderDescription": "Описание урока",
+    "LessonModal.ActionCreate": "Создать урок",
+    "LessonModal.ActionCancelCreation": "Отмена",
+
+    "LessonWarningModalDeleteAction.Title": "Удалить урок?",
+    "LessonWarningModalDeleteAction.Description": "Урок и все файлы удалятся из конструктора",
+    "LessonWarningModalDeleteAction.ActionDelete": "Удалить",
+    "LessonWarningModalDeleteAction.ActionCancelDelete": "Отмена",
+
+    "ActionCard.DeleteLessonTitle": "Удалить класс",
+    "ActionCard.DuplicateLessonTitle": "Дублировать класс"
+  }
+}

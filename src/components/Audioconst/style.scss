@@ -1,0 +1,80 @@
+.player {
+  display: flex;
+  background: #f3f5f9;
+  border-radius: 20px;
+  width: 390px;
+  height: 40px;
+
+  .bar {
+    user-select: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    .bar__time {
+      color: #000000;
+      font-size: 14px;
+      margin-left: 12px;
+      margin-right: 24px;
+    }
+
+    .player__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: fit-content;
+
+      background-color: transparent;
+      border: none;
+
+      &:focus {
+        outline: none;
+      }
+      &:hover {
+        cursor: pointer;
+        svg {
+          color: greenyellow;
+        }
+      }
+    }
+
+    .bar__progress {
+      flex: 1;
+      border-radius: 2px;
+      height: 5px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .bar__progress_header {
+      flex: 1;
+      border-radius: 2px;
+      height: 5px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    .bar__volume {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: fit-content;
+      margin: 0 15px;
+      background-color: transparent;
+      border: none;
+
+      &:focus {
+        outline: none;
+      }
+      &:hover {
+        cursor: pointer;
+        svg {
+          color: greenyellow;
+        }
+      }
+    }
+  }
+}

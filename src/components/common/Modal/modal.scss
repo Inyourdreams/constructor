@@ -1,0 +1,141 @@
+.modal-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .modal {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: #fff;
+
+    .modal-header {
+      padding: 20px 30px;
+      border-bottom: 1px solid #C2CFE0;
+
+      span {
+        font-family: "Open-Sans Bold", sans-serif;
+        font-size: 20px;
+        color: #414752;
+      }
+    }
+
+    .warning-modal-header {
+      padding: 40px 35px 0 35px;
+      display: flex;
+      flex-direction: column;
+
+      span.title {
+        margin-bottom: 40px;
+        text-align: center;
+        font-family: "Open-Sans Bold", sans-serif;
+        font-size: 20px;
+        color: #414752;
+      }
+
+      span.description {
+        text-align: center;
+        font-family: "Open-Sans Regular", sans-serif;
+        font-size: 18px;
+        color: #90A4BD;
+      }
+    }
+
+    .modal-media-container {
+      padding: 30px;
+      display: flex;
+      align-items: center;
+
+      .image-container {
+        width: 260px;
+        height: 130px;
+        margin-right: 24px;
+        border-radius: 16px;
+        background-size: cover;
+      }
+
+      .right-side {
+        display: flex;
+        flex-direction: column;
+
+        .media-title {
+          font-family: "Open-Sans Bold", sans-serif;
+          font-size: 20px;
+          color: #90A4BD;
+        }
+
+        .hiddenFileInput {
+          display: none;
+        }
+
+        button.fileButton {
+          span.uploadText {
+            font-family: "Poppins Regular", sans-serif;
+            font-size: 15px;
+            color: #414752;
+          }
+
+          span.fileSizeText {
+            font-family: "Open-Sans Regular", sans-serif;
+            font-size: 12px;
+            color: #90A4BD;
+          }
+        }
+
+        .fileInfo {
+          margin-top: 8px;
+          font-family: "Open-Sans Regular", sans-serif;
+          font-size: 12px;
+          color: #90A4BD;
+        }
+      }
+    }
+
+    .modal-inputs-container {
+      display: flex;
+      flex-direction: column;
+      padding: 0 30px;
+
+      .MuiFormControl-root {
+        margin-top: 8px;
+      }
+
+      .MuiFormLabel-root {
+        font-family: "Open-Sans Bold", sans-serif;
+        font-size: 18px;
+        color: #90A4BD;
+      }
+
+      .MuiFormControl-fullWidth {
+        width: 500px;
+      }
+
+      .MuiInput-formControl {
+        font-family: "Open-Sans Bold", sans-serif;
+        font-size: 18px;
+        padding-bottom: 8px;
+        color: #414752;
+      }
+
+      .MuiInput-underline:before {
+        border-bottom: 1px solid #D3D8DD;
+      }
+
+      .MuiInput-underline:after {
+        border-bottom: 1px solid #D3D8DD;
+      }
+    }
+
+    .modal-actions-container {
+      padding: 40px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      button.creation {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

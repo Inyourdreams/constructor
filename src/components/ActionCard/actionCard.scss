@@ -1,0 +1,65 @@
+.card.big.action {
+  display: grid;
+  grid-template-rows: 150px auto 40px;
+
+  .card-image-container {
+    height: 100%;
+    width: 300px;
+    border-radius: 16px 16px 0 0;
+    background-size: cover;
+  }
+
+  .card-description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    padding: 20px;
+
+    span.card-title {
+      max-width: 260px;
+      line-height: 23px;
+      overflow: hidden;
+      margin-bottom: 18px;
+      font-family: "Open-Sans Bold", sans-serif;
+      font-size: 18px;
+      color: #1B3B77;
+    }
+
+    span.card-description {
+      margin-bottom: 8px;
+      text-overflow: ellipsis;
+      max-width: 250px;
+      overflow: hidden;
+      font-family: "Open-Sans Regular", sans-serif;
+      font-size: 13px;
+      color: #90A4BD;
+    }
+  }
+
+  .card-footer-container {
+    padding: 8px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    span.lessons-title {
+      font-family: "Open-Sans Regular", sans-serif;
+      font-size: 14px;
+      color: #566A8F;
+
+      b.lessons-count {
+        font-family: "Open-Sans Bold", sans-serif;
+      }
+    }
+  }
+}
+
+.course-description-tooltip {
+  padding: 15px;
+  font-family: "Open-Sans Regular", sans-serif !important;
+  font-size: 13px;
+  background: rgba(65, 71, 82, .7) !important;
+  border-radius: 8px;
+  max-width: 400px;
+  word-wrap: break-word;
+}

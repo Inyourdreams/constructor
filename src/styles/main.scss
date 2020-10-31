@@ -1,0 +1,24 @@
+@import "colors";
+@import "mixins";
+
+@import "fonts";
+@import "common";
+@import "layout";
+
+@import "../components/common/Tabs/tabs";
+@import "../components/common/Card/card";
+@import "../components/common/Menu/menu";
+@import "../components/common/Button/button";
+@import "../components/common/DragCard/dragCard";
+@import "../components/common/Constructor/constructor";
+@import "../components/common/Modal/modal";
+
+@import "../components/Navbar/navbar";
+@import "../components/ActionCard/actionCard";
+
+@import "../components/Block/block";
+@import "../components/common/PagesController/pages-controller";
+
+@import "../routes/courses/courses";
+@import "../routes/course/course";
+@import "../routes/lesson/lessons";

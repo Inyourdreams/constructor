@@ -1,0 +1,17 @@
+.dropdown-menu {
+  padding: 10px 20px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .3);
+
+  .dropdown-item {
+    padding: 10px 0;
+    cursor: pointer;
+
+    span.dropdown-item-name {
+      font-family: "Open-Sans Regular", sans-serif;
+      font-size: 15px;
+      color: #414752;
+    }
+  }
+}

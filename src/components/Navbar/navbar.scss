@@ -1,0 +1,51 @@
+nav#navbar {
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #91A4BD;
+
+  #navbar-title span {
+    font-family: "Open-Sans Bold", sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .navbar-goback-container {
+    height: 14px;
+    padding: 0 30px;
+    cursor: pointer;
+  }
+
+  .lesson-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .left-side {
+      display: flex;
+      align-items: center;
+    }
+
+    .middle-side {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      input {
+        font-family: "Open-Sans Bold", sans-serif;
+        font-size: 18px;
+        color: #fff;
+        background: transparent;
+        border: 0;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      img {
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.card {
+  margin: 0 30px 30px 0;
+  border-radius: 16px;
+  border: 0;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+
+  &.big {
+    height: 300px;
+    width: 300px;
+
+    @include center;
+
+    .creation-block-container {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        margin-top: 28px;
+        font-family: "Open-Sans Bold", sans-serif;
+        color: #1B3B77;
+      }
+    }
+  }
+}
